@@ -5,9 +5,9 @@ import time
 from datetime import timedelta
 import pickle as pkl
 
-PAD, CLS = '[PAD]', '[CLS]'  # padding符号, bert中综合信息符号
-MAX_VOCAB_SIZE = 10000  # 词表长度限制
-UNK = '<UNK>'  # 未知字，padding符号
+PAD, CLS = '[PAD]', '[CLS]'
+MAX_VOCAB_SIZE = 10000
+UNK = '<UNK>'
 
 def build_vocab(file_path2, file_path3, tokenizer, max_size, min_freq):
     vocab_dic2 = {}  # id.txt
@@ -42,7 +42,7 @@ def build_vocab(file_path2, file_path3, tokenizer, max_size, min_freq):
 
 
 def build_dataset(config):
-    tokenizer = lambda x: x.split(' ')  # 以空格隔开，word-level
+    tokenizer = lambda x: x.split(' ')
     vocab_id = build_vocab(config.id_path, config.id2_path, tokenizer=tokenizer, max_size=MAX_VOCAB_SIZE, min_freq=1)
 
     pkl.dump(vocab_id, open(config.vocab_id_path, 'wb'))
