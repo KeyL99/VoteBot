@@ -75,5 +75,6 @@ python run.py --model bert
 python run.py
 ```
 
+## Example Results
 
-
+![](https://user-images.githubusercontent.com/112673904/189321818-24c86053-ecee-4fa1-a3b6-343bc4610988.jpg)
