@@ -77,5 +77,6 @@ python run.py
 
 ## Example Results
 
-![AN EXAMPLE OF GOLD REFERENCE AND SUMMARIES PRODUCED BY VOTEBOT AND TWO BASELINES.](https://user-images.githubusercontent.com/112673904/189326192-b00fab14-cf98-4dc3-a033-8d2201c03b82.png)
+![example](https://user-images.githubusercontent.com/112673904/189326644-6d1c5321-e6f9-4f98-bfce-38c2d0626f51.png)
+
 
