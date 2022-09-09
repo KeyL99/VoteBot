@@ -55,8 +55,8 @@ spacy-universal-sentence-encoder==0.4.3
 
 ## Data
 
-* Data path for Stance Detection: ``VoteBot_SD/data``.
-* Data path for Stance Summarization: ``VoteBot_SS/data``.
+* Data path for Stance Detection: ``VoteBot_SD/data/``.
+* Data path for Stance Summarization: ``VoteBot_SS/data/``.
 
 ## Code
 
