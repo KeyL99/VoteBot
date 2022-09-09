@@ -50,13 +50,13 @@ spacy-universal-sentence-encoder==0.4.3
 
 ### Pre-trained model and path
 
-* The path of [bert-base-uncased](https://huggingface.co/bert-base-uncased): ``VoteBot_SD/bert_pretrain/``
-* The path of [pacsum_models](https://drive.google.com/file/d/1wbMlLmnbD_0j7Qs8YY8cSCh935WKKdsP/view?usp=sharing): ``VoteBot_SS/models/``
+* The path of [bert-base-uncased](https://huggingface.co/bert-base-uncased): ``VoteBot_SD/bert_pretrain/``.
+* The path of [pacsum_models](https://drive.google.com/file/d/1wbMlLmnbD_0j7Qs8YY8cSCh935WKKdsP/view?usp=sharing): ``VoteBot_SS/models/``.
 
 ## Data
 
-* Data path for Stance Detection: ``VoteBot_SD\data``
-* Data path for Stance Summarization: ``VoteBot_SS\data``
+* Data path for Stance Detection: ``VoteBot_SD/data``.
+* Data path for Stance Summarization: ``VoteBot_SS/data``.
 
 ## Code
 
