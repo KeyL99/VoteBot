@@ -1,6 +1,6 @@
 # VoteBot
 
-This repository contains data and code for the paper ___What are Pros and Cons? Stance Detection and Summarization on Feature Requests___ in ICSE'23.
+This repository contains data and code for the paper **What are Pros and Cons? Stance Detection and Summarization on Feature Request**.
 
 
 
