@@ -60,6 +60,8 @@ spacy-universal-sentence-encoder==0.4.3
 
 #### Data Format
 
+**The data formats of the two datasets mentioned above:**
+
 * **Stance Detection**
   * "tokens": comment sentences.
   * "label": sentimental polarity
