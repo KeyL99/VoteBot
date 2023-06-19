@@ -66,11 +66,11 @@ spacy-universal-sentence-encoder==0.4.3
   
   ```
   "tokens": comment sentences.
-  "label": ground-truth stance polarity.
+  "label": the ground-truth stance polarity.
   "login": the user name of this commenter.
   "character": the commenter role of current comment.
-  "reply": the commenter role of child comments.
-  "beReplied": the commenter role of parent comments.
+  "reply": the commenter role of parent comments.
+  "beReplied": the commenter role of child comments.
   ```
   
 * **Stance Summarization**
@@ -80,7 +80,7 @@ spacy-universal-sentence-encoder==0.4.3
   "target": the index of the ground-truth summary sentence.
   "issue_sim": semantic relevance between each comment sentence and the feature description.
   "prob": argumentative relations of each comment sentence 
-  		(i.e., the probability where the argumentative relation is predicted as MajorClaim).
+  	(i.e., the probability where the argumentative relation is predicted as MajorClaim).
   ```
 
 
