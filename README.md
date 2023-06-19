@@ -58,6 +58,24 @@ spacy-universal-sentence-encoder==0.4.3
 * Data path for Stance Detection: ``VoteBot_SD/data/``.
 * Data path for Stance Summarization: ``VoteBot_SS/data/``.
 
+#### Data Format
+
+* **Stance Detection**
+  * "tokens": comment sentences.
+  * "label": sentimental polarity
+  * "login": the user name of this commentator
+  * "character": the role of this commentator
+  * "reply": the role of the person to whom this comment is replied to
+  * "beReplied": the role of the person who replied to this comment
+
+* **Stance Summarization**
+  * "doc": comment sentences.
+  * "target": the index of the ground-truth summary sentence.
+  * "issue_sim": semantic relevance between each comment sentence and the feature description.
+  * "prob": argumentative relations of each comment sentence (i.e., the probability where the argumentative relation is predicted as MajorClaim).
+
+
+
 ## Code
 
 * VoteBot_SD is for Stance Detection.
