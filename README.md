@@ -63,18 +63,24 @@ spacy-universal-sentence-encoder==0.4.3
 **The data formats of the two datasets mentioned above:**
 
 * **Stance Detection**
-  * "tokens": comment sentences.
-  * "label": sentimental polarity
-  * "login": the user name of this commentator
-  * "character": the role of this commentator
-  * "reply": the role of the person to whom this comment is replied to
-  * "beReplied": the role of the person who replied to this comment
-
+  
+  ```
+  "tokens": comment sentences.
+  "label": ground-truth stance polarity.
+  "login": the user name of this commenter.
+  "character": the role of this commenter.
+  "reply": the role of the commenter to whom this comment is replied to.
+  "beReplied": the role of the commenter who replied to this comment.
+  ```
+  
 * **Stance Summarization**
-  * "doc": comment sentences.
-  * "target": the index of the ground-truth summary sentence.
-  * "issue_sim": semantic relevance between each comment sentence and the feature description.
-  * "prob": argumentative relations of each comment sentence (i.e., the probability where the argumentative relation is predicted as MajorClaim).
+  
+  ```
+  "doc": comment sentences.
+  "target": the index of the ground-truth summary sentence.
+  "issue_sim": semantic relevance between each comment sentence and the feature 					 description.
+  "prob": argumentative relations of each comment sentence (i.e., the probability where 		  the argumentative relation is predicted as MajorClaim).
+  ```
 
 
 
