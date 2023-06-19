@@ -80,7 +80,7 @@ spacy-universal-sentence-encoder==0.4.3
   "target": the index of the ground-truth summary sentence.
   "issue_sim": semantic relevance between each comment sentence and the feature description.
   "prob": argumentative relations of each comment sentence 
-  (i.e., the probability where the argumentative relation is predicted as MajorClaim).
+  		(i.e., the probability where the argumentative relation is predicted as MajorClaim).
   ```
 
 
