@@ -69,8 +69,8 @@ spacy-universal-sentence-encoder==0.4.3
   "label": ground-truth stance polarity.
   "login": the user name of this commenter.
   "character": the role of this commenter.
-  "reply": the commenter role of parent comments and child comments.
-  "beReplied": the role of the commenter who replied to this comment.
+  "reply": the commenter role of child comments.
+  "beReplied": the commenter role of parent comments.
   ```
   
 * **Stance Summarization**
